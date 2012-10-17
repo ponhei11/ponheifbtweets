@@ -1,0 +1,54 @@
+<html>
+<head>
+
+<script src="jquery.js" type="text/javascript"></script>
+
+</head>
+
+
+<body>
+<br/>
+</br>
+
+
+<a  href='' style="float:left;margin-top:-20;margin-left:315;" onclick='javascript:clearLocal();'>Clear History</a></b>
+	 <!--Eto yung div ng history-->
+	<div class="fbgreybox" style="width:19%;min-height:300;float:left;margin-left:120; border-radius:10px;z-index:1000;position:relative;" id="history" >
+	</div>
+	
+	<button id="button-one" class="search-button btn btn-primary" style="margin-top:-10;">Search</button>
+	<script>		
+	function getUserScribble() {
+	  if ( localStorage.getItem('userScribble')) {
+		var scribble = localStorage.getItem('userScribble');
+	  }
+	  else {
+		var scribble = 'History</br>';
+	  }
+	  document.getElementById('history').innerHTML = scribble;
+	}
+	function clearLocal() {
+		  clear: localStorage.clear(); 
+		  return false;
+	}
+	getUserScribble();
+	</script>
+	<SCRIPT>
+	
+	var Handler = function(){
+	$("#history").append('Sample</br>');
+	
+	<!--PARA SA LOCAL STORAGE-->
+	storeUserScribble('history');
+		function storeUserScribble(id) {
+			var scribble = document.getElementById('history').innerHTML;
+			localStorage.setItem('userScribble',scribble);
+			
+	}
+	}
+	$("#button-one").click(Handler);
+	</SCRIPT>
+	
+</body>
+</html>
+	

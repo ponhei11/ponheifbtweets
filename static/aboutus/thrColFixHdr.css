@@ -1,0 +1,268 @@
+.thrColFixHdr #container{
+width: 1015px;
+height: 758px;
+/*background:url(bground.jpg);*/
+background-color: #fff;
+border: transparent;
+position: relative;
+left: 150;
+top: 40;
+
+}
+.bannercontainer{
+width: 1015px;
+height: 80px;
+background-color: #B0C4DE;
+position: relative;
+left: 150;
+top: 20;
+box-shadow: 5px 5px 3px #191970;
+border-radius: 10;
+font-family: candara, cambria, arial, helvetica;
+}
+
+.header{
+width: 1015px;
+height: 50px;
+/*border-top:3px solid #FFFF00;
+border-bottom:3px solid #FFFF00;*/
+background-color: #E7EBF2;
+position: relative;
+font-family: candara, cambria, arial, helvetica;
+
+
+}
+.title{
+width: 400px;
+height: 50px;
+position: relative;
+border:transparent;
+top: 8;
+right: 40;
+color: #191970;
+font-family: candara, cambria, arial, helvetica;
+
+}
+
+.member1{
+width: 220px;
+height: 220px;
+background-image: url(lucil.jpg);
+background-image-position: center;
+background-color: #fff;
+position: relative;
+top: 15;
+left: 20;
+box-shadow: 5px 5px 3px #191970;
+border-radius: 10;
+}
+
+.picon{
+position: relative;
+top: 15;
+
+}
+
+
+
+
+.decon{
+width: 210;
+height: 170;
+padding: 5px 5px 5px 5px;
+position: relative;
+top: 180;
+font-size: 20;
+font-weight: bold;
+font-family: candara, cambria, arial, helvetica;
+}
+
+.name{
+width: 210;
+height: 50;
+font-size: 20;
+font-weight: bold;
+padding: 5px 5px 5px 5px;
+position: relative;
+color: #2F4F4F;
+top: 230;
+font-family: candara, cambria, arial, helvetica;
+}
+
+
+.member2{
+width: 220px;
+height: 220px;
+background: url(ponhei.jpg);
+background-color: #fff;
+position: inherit;
+left: 270;
+bottom:204;
+box-shadow: 5px 5px 3px #191970;
+border-radius: 10;
+}
+
+
+.decon2{
+width: 210;
+height: 170;
+position: relative;
+padding: 5px 5px 5px 5px;
+top: 180;
+font-size: 20;
+font-weight: bold;
+font-family: candara, cambria, arial, helvetica;
+
+}
+
+.name2{
+width: 210;
+height: 50;
+font-size: 20;
+font-weight: bold;
+padding: 5px 5px 5px 5px;
+position: relative;
+color: #2F4F4F;
+top: 230;
+font-family: candara, cambria, arial, helvetica;
+
+}
+
+
+.member3{
+width: 220px;
+height: 220px;
+background: url(mel.jpg);
+background-color: #fff;
+position: relative;
+left: 520;
+bottom: 424;
+box-shadow: 5px 5px 3px #191970;
+border-radius: 10;
+
+}
+
+.decon3{
+width: 210;
+height: 170;
+position: relative;
+padding: 5px 5px 5px 5px;
+top: 180;
+font-size: 20;
+font-weight: bold;
+font-family: candara, cambria, arial, helvetica;
+
+}
+
+.name3{
+width: 210;
+height: 50;
+font-size: 20;
+font-weight: bold;
+padding: 5px 5px 5px 5px;
+position: relative;
+color: #2F4F4F;
+top: 230;
+font-family: candara, cambria, arial, helvetica;
+
+}
+
+
+.member4{
+
+width: 220px;
+height: 220px;
+background-image: url(loub.jpg);
+background-image-position:center;
+background-color: #FFF;
+position: relative;
+bottom: 644;
+left: 775;
+box-shadow: 5px 5px 3px #191970;
+border-radius: 10;
+
+}
+
+.decon4{
+width: 210;
+height: 170;
+position: relative;
+padding: 5px 5px 5px 5px;
+top: 180;
+font-size: 20;
+font-weight: bold;
+font-family: candara, cambria, arial, helvetica;
+
+}
+
+.name4{
+width: 210;
+height: 50;
+font-size: 20;
+font-weight: bold;
+padding: 5px 5px 5px 5px;
+position: relative;
+color: #2F4F4F;
+top: 230;
+font-family: candara, cambria, arial, helvetica;
+
+
+}
+
+.searchagain{
+float:right; 
+width: 150;
+height: 20;
+font-size: 15;
+border: transparent;
+font-weight: bold;
+position: relative;
+bottom: 50;
+color: #191970;
+right: 20;
+}
+
+.searchlink{
+float:right; 
+width: 150;
+height: 20;
+font-size: 18;
+border: transparent;
+font-weight: bold;
+position: relative;
+top: 15;
+color: #191970;
+right: 20;
+
+}
+
+.searchlink ul{
+margin: auto;
+text-align: center;
+
+}
+.searchlink li{
+
+margin:auto;
+list-style-type:none;
+display:inline;
+
+}
+
+.searchlink li a {
+
+color:#191970;
+padding:4px 8px 6px;
+text-decoration:none;
+font-size:12px;
+font-family: candara, book antiqua, cambria, times new roman;
+font-weight:bold;
+border-radius: 15;
+text-align: center;
+}
+
+.searchlink  li a:hover{
+
+color : #ffffff;
+background-color:#191970;
+}
